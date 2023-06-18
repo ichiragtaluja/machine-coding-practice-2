@@ -1,0 +1,19 @@
+.modal-container {
+  z-index: 1;
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+.modal-children {
+  width: 80%;
+  
+  border: 1px solid white;
+  margin: auto;
+  margin-top: 10vh;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+}

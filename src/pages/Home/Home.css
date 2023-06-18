@@ -1,0 +1,24 @@
+.habits-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.edit-form-container {
+}
+
+.form-input {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: start;
+}
+
+.form-input > * {
+  margin-bottom: 20px;
+}
+
+.form-input input,
+.form-input select {
+  margin-left: 10px;
+  border: 1px solid rgb(220, 220, 220);
+}
