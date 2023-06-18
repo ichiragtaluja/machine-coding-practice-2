@@ -1,9 +1,11 @@
 .habbit-card {
+  padding-top: 2rem;
   width: 200px;
-  height: 250px;
+  height: 450px;
   border-radius: 20px;
   border: 1px solid rgb(223, 223, 223);
   margin: 1rem;
+  padding: 1rem;
 }
 
 .repeat-goal-container {
@@ -25,4 +27,8 @@
   margin: 0.5rem;
   padding: 0.8rem 1.5rem;
   border-radius: 1rem;
+}
+
+.names{
+  font-weight: 600;
 }

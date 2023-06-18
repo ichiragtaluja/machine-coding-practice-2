@@ -41,7 +41,15 @@ export const Habit = ({ habit }) => {
   return (
     <>
       <div className="habbit-card">
-        <h3>{name}</h3>
+        <h2>{name}</h2>
+        <p>
+          <span className="names">Repeat: </span>
+          {repeat}
+        </p>
+        <p>
+          <span className="names">Time Of Day : </span>
+          {timeOfDay}
+        </p>
         <button onClick={() => setOpenEditHabitModal(true)}>
           <AiFillEdit />
           Edit
